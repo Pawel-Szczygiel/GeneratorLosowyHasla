@@ -1,0 +1,74 @@
+   * {
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+   }
+
+   body {
+       max-height: 100vh;
+       min-height: 200px;
+       font-family: 'Saira Condensed', sans-serif;
+       background-color: #f9f9f9;
+   }
+
+   #div {
+
+       width: 500px;
+       padding: 10px;
+       margin: 40vh auto;
+   }
+
+   #div h2 {
+       font-size: 28px;
+       letter-spacing: 1px;
+       color: #444;
+   }
+
+   #div h2::first-letter {
+       text-transform: uppercase;
+   }
+
+   #div input {
+       display: block;
+       width: 100%;
+       height: 65px;
+       border: none;
+       margin: 15px 20px;
+       outline: none;
+       background: transparent;
+       font-size: 26px;
+       padding: 0 20px;
+       color: #444;
+       letter-spacing: 4px;
+       box-shadow: -4px -4px 10px 3px rgba(255, 255, 255, 1),
+           inset 4px 4px 10px 3px rgba(0, 0, 0, 0.2),
+           inset -4px -4px 10px 6px rgba(255, 255, 255, 1),
+           4px 4px 10px 3px rgba(0, 0, 0, 0.2);
+       border-radius: 10px;
+   }
+
+   #div button {
+       display: block;
+       font-size: 24px;
+       color: #eee;
+       background-color: #333;
+       cursor: pointer;
+       border-radius: 8px;
+       letter-spacing: 1px;
+       padding: 8px;
+       outline: none;
+       transition: .2s;
+   }
+#div button::first-letter{
+    text-transform: uppercase;
+}
+
+   #div button:hover {
+       background-color: #eee;
+       color: #444;
+   }
+
+   #div button:active {
+       background-color: rgb(111, 82, 207);
+       color: white;
+   }
